@@ -13,19 +13,19 @@ const AdminPanel = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <button
-            onClick={() => navigate("/provide-certificate")}
+            onClick={() => navigate("/admin/provide-certificate")}
             className="bg-green-500 text-white py-4 rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75"
           >
             Provide Certificate
           </button>
           <button
-            onClick={() => navigate("/link-update")}
+            onClick={() => navigate("/admin/link-update")}
             className="bg-yellow-500 text-white py-4 rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-75"
           >
             Link Update
           </button>
           <button
-            onClick={() => navigate("/show-database")}
+            onClick={() => navigate("/admin/show-database")}
             className="bg-red-500 text-white py-4 rounded-lg shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75"
           >
             Show Database
